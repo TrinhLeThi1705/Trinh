@@ -1,0 +1,13 @@
+:root {
+    --a-color: pink;
+}
+h1 {
+    --my-color: yellow;
+    color: var(--my-color);
+}
+h2 {
+    color: var(--a-color);
+}
+h3 {
+    color: var(--a-color);
+}
